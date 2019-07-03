@@ -9,6 +9,7 @@
 namespace OwllabApp\Serializer;
 
 use ApiPlatform\Core\Serializer\SerializerContextBuilderInterface;
+use OwllabApp\Entity\User;
 use OwllabApp\Serializer\Interfaces\UserContextBuilderInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;

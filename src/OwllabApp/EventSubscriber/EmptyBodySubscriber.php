@@ -16,6 +16,10 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 
+/**
+ * Class EmptyBodySubscriber
+ * @package OwllabApp\EventSubscriber
+ */
 class EmptyBodySubscriber implements EmptyBodySubscriberInterface
 {
 

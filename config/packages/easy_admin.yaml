@@ -1,6 +1,40 @@
-#easy_admin:
-#    entities:
-#        # List the entity class name you want to manage
-#        - App\Entity\Product
-#        - App\Entity\Category
-#        - App\Entity\User
+easy_admin:
+    entities:
+        User:
+            class: OwllabApp\Entity\User
+            controller: OwllabApp\Controller\UserAdminController
+        Category:
+            class: OwllabApp\Entity\Category
+        Post:
+            class: OwllabApp\Entity\Post
+            list:
+                actions: [ { name: "Show"} ]
+            show:
+                fields:
+                    - id
+                    - title
+                    - published
+                    - { property: 'comments', template: 'admin/comments.html.twig' }
+                    - images
+        Comment:
+            class: OwllabApp\Entity\Comment
+        Avatar:
+            class: OwllabApp\Entity\Avatar
+            list:
+                fields:
+                    - id
+                    - { property: 'url', type: 'image', label: 'Image' }
+            form:
+                fields:
+                    - { property: 'file', type: 'Vich\UploaderBundle\Form\Type\VichFileType' }
+        PostImage:
+            class: OwllabApp\Entity\PostImage
+            list:
+                fields:
+                    - id
+                    - { property: 'url', type: 'image', label: 'Image' }
+            form:
+                fields:
+                    - { property: 'file', type: 'Vich\UploaderBundle\Form\Type\VichFileType' }
+        Tag:
+            class: OwllabApp\Entity\Tag

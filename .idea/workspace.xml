@@ -1,24 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/OwllabApp/Entity/Post.php" line="93" />
+    <bookmark url="file://$PROJECT_DIR$/src/OwllabApp/Entity/Avatar.php" description="    /**&#10;     * @return string|null&#10;     */&#10;    pub..." line="79" />
+    <bookmark url="file://$PROJECT_DIR$/src/OwllabApp/Entity/PostImage.php" line="28" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9feea4ce-803a-478d-a13d-e84ca9c70086" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Email/Interfaces/MailerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Email/Mailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventListener/ExceptionListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventListener/Interfaces/ExceptionListenerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/EmptyBodySubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/EmptyBodySubscriberInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/PublishedDateEntitySubscriberInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/PublishedDateEntitySubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Exception/EmptyBodyException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Exception/Interfaces/EmptyBodyExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Serializer/Interfaces/UserAttributeNormalizerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Serializer/Interfaces/UserContextBuilderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Serializer/UserAttributeNormalizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Serializer/UserContextBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/maker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/jwt.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/AdminSecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/AdminSecurityControllerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/ControllerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/DefaultControllerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/ResetPasswordActionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/UploadImageActionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/UserAdminControllerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/ResetPasswordAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/UploadImageAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Controller/UserAdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Avatar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Entity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/AuthoredInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/AvatarInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/BilingualDescriptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/BilingualTitleInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/CategoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/CommentInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/ConstantInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/ContentInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/DescriptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/EmailInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/EntityInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/FullNameInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/IdInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/ImageInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/LabelInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/NameInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/PhoneInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/PostImageInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/PostInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/PriorityInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/PublishDateInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/SlugInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/TagInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/TimeInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/TitleInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/UrlInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/UserConfirmationInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/UserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/PostImage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/BilingualDescriptionTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/BilingualTitleTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/ContentTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/DescriptionTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/EmailTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/FullNameTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/IdTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/LabelTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/NameTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/PhoneTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/PriorityTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/PublishedTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/SlugTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/TimeTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/TitleTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/UrlTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Entity/UserConfirmation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventListener/AuthenticationSuccessListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventListener/Interfaces/AuthenticationSuccessListenerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/AuthoredEntitySubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/AuthoredEntitySubscriberInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/UserConfirmationSubscriberInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/UserRegisterSubscriberInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/UserConfirmationSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/UserRegisterSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Exception/Interfaces/InvalidConfirmationExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Exception/InvalidConfirmationTokenException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Form/AbstractType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Form/AvatarType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Form/ImageType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Form/PostImageType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/AvatarRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/CategoryRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/CommentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/EntityRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/AvatarRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/CategoryRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/CommentRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/EntityRepositoryInterfaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/PostImageRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/PostRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/TagRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/UserRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/PostImageRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/PostRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/TagRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Security/Interfaces/TokenAuthenticatorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Security/Interfaces/TokenGeneratorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Security/Interfaces/UserConfirmationServiceInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Security/Interfaces/UserEnabledCheckerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Security/TokenAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Security/TokenGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Security/UserConfirmationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Security/UserEnabledChecker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwllabApp/Utility/Functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/comments.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/email/confirmation.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/email/reset_password.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sellit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sellit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/api_platform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/fos.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OwllabApp/DataFixtures/OwllabAppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OwllabApp/DataFixtures/OwllabAppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/EmptyBodySubscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/EmptyBodySubscriber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/PublishedDateEntitySubscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/PublishedDateEntitySubscriber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OwllabApp/Serializer/UserAttributeNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OwllabApp/Serializer/UserAttributeNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OwllabApp/Serializer/UserContextBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OwllabApp/Serializer/UserContextBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,46 +153,87 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sellit$Interfaces.xml" NAME="Interfaces Coverage Results" MODIFIED="1560360247557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventSubscriber/EmptyBodySubscriber.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="61" />
-              <folding>
-                <element signature="e#128#179#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventSubscriber/PublishedDateEntitySubscriber.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/SubscriberInterface.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>App\Kernel::registerBundles()</find>
       <find>registerBundles()</find>
+      <find>description</find>
+      <find>name</find>
+      <find>email</find>
+      <find>this-&gt;getF</find>
+      <find>: void</find>
+      <find>}</find>
+      <find>@return Post</find>
+      <find>self</find>
+      <find>comment</find>
+      <find>post</find>
+      <find>%kernel.project_dir%/src/OwllabApp/Entity</find>
+      <find>tag</find>
+      <find>firsName</find>
+      <find>private</find>
+      <find>credential</find>
       <find>App</find>
+      <find>remove</find>
+      <find>blog-post</find>
+      <find>getName</find>
+      <find>image</find>
+      <find>Tag</find>
+      <find>avatar</find>
+      <find>avatars</find>
+      <find>OwllabApp\Entity\Interfaces\CategoryInterface</find>
+      <find>title</find>
+      <find>mediaObject</find>
     </findStrings>
+    <replaceStrings>
+      <replace>content</replace>
+      <replace>phone</replace>
+      <replace>f</replace>
+      <replace>: self</replace>
+      <replace>@return self</replace>
+      <replace>comment</replace>
+      <replace>PostInterface</replace>
+      <replace>tag</replace>
+      <replace>user</replace>
+      <replace>firstName</replace>
+      <replace>protected</replace>
+      <replace>OwllabAp</replace>
+      <replace>OwllabApp</replace>
+      <replace>slug</replace>
+      <replace>post</replace>
+      <replace>avater</replace>
+      <replace>avataer</replace>
+      <replace>avatar</replace>
+      <replace>postImage</replace>
+      <replace>image</replace>
+    </replaceStrings>
     <dirStrings>
+      <dir>$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces</dir>
+      <dir>$PROJECT_DIR$/config/packages</dir>
+      <dir>$PROJECT_DIR$/src/OwllabApp/Entity</dir>
+      <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
@@ -75,47 +243,83 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/packages/vich_uploader.yaml" />
-        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
-        <option value="$PROJECT_DIR$/config/packages/fos.yaml" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/src/Owllabgroup/Kernel.php" />
-        <option value="$PROJECT_DIR$/composer.lock" />
-        <option value="$PROJECT_DIR$/src/Kernel.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/bin/console" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/symfony.lock" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/DataFixtures/AppFixtures.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Kernel.php" />
-        <option value="$PROJECT_DIR$/config/services.yaml" />
-        <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
-        <option value="$PROJECT_DIR$/config/packages/api_platform.yaml" />
-        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
-        <option value="$PROJECT_DIR$/config/routes/annotations.yaml" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Email/Mailer.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Email/Interfaces/MailerInterface.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/DataFixtures/OwllabAppFixtures.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Exception/Interfaces/ExceptionListenerInterface.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Exception/ExceptionListener.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/EventListener/EmptyBodySubscriber.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/EventListener/Interfaces/ExceptionListenerInterface.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/EventListener/ExceptionListener.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Exception/Interfaces/EmptyBodyExceptionInterface.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Exception/EmptyBodyException.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/ContentTrait.php" />
+        <option value="$PROJECT_DIR$/templates/email/confirmation.html.twig" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/PhoneTrait.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/FullNameTrait.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/EmailTrait.php" />
         <option value="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/EmptyBodySubscriber.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Serializer/UserContextBuilder.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Serializer/Interfaces/UserContextBuilderInterface.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Serializer/UserAttributeNormalizer.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/Serializer/Interfaces/UserAttributeNormalizerInterface.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/PublishedDateEntitySubscriber.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/PublishedDateEntitySubscriberInterface.php" />
-        <option value="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/EmptyBodySubscriberInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/UserConfirmation.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Category.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/TagInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/TitleTrait.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Tag.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/AbstractImage.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/PostImageInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Repository/ImageRepository.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/AvatarRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Repository/AvatarRepository.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Repository/Interfaces/PostImageRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Repository/PostImageRepository.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/UserInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/PostInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/DataFixtures/OwllabAppFixtures.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/ConstantInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Form/AvatarType.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Form/PostImageType.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/AdminSecurityControllerInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Controller/UserAdminController.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/UserAdminControllerInterface.php" />
+        <option value="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
+        <option value="$PROJECT_DIR$/config/packages/api_platform.yaml" />
+        <option value="$PROJECT_DIR$/config/routes/api_platform.yaml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/packages/validator.yaml" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/ImageInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/AvatarInterface.php" />
+        <option value="$PROJECT_DIR$/config/routes.yaml" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/config/packages/vich_uploader.yaml" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Form/ImageType.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Controller/UploadImageAction.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Traits/UrlTrait.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Image.php" />
+        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Avatar.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/Post.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/PostImage.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/ResetPasswordActionInterface.php" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Controller/ResetPasswordAction.php" />
+        <option value="$PROJECT_DIR$/templates/email/reset_password.html.twig" />
+        <option value="$PROJECT_DIR$/src/OwllabApp/Entity/User.php" />
       </list>
     </option>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="c7e85c9d-ae7b-4771-b21a-77990f5af1f6" name="localhost" port="8000" />
+      <server host="127.0.0.1" id="12f6807f-a0ab-4014-955c-d8158e3ba253" name="127.0.0.1" port="8000" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/vendor/api-platform/core/tests/Fixtures/app/public" remote-root="/home/farshad/Sites/sellit/public" />
+        </path_mappings>
+      </server>
+      <server host="localhost" id="772117dc-c91b-4bd4-aae8-eeed03e5c303" name="localhost (1)" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/public" remote-root="/usr/share/phpmyadmin" />
+        </path_mappings>
+      </server>
+      <server host="sellit.local" id="05d65604-de2f-4160-b91a-97e558597e41" name="sellit.local" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
       <path value="$PROJECT_DIR$/vendor/symfony/routing" />
@@ -214,20 +418,22 @@
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
-      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="436" />
-    <option name="y" value="251" />
-    <option name="width" value="1210" />
-    <option name="height" value="810" />
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1853" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,12 +441,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="sellit" type="b2602c69:ProjectViewProjectNode" />
               <item name="sellit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sellit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sellit" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sellit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sellit" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sellit" type="b2602c69:ProjectViewProjectNode" />
@@ -263,42 +481,44 @@
             <path>
               <item name="sellit" type="b2602c69:ProjectViewProjectNode" />
               <item name="sellit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OwllabApp" type="462c0819:PsiDirectoryNode" />
-              <item name="EventSubscriber" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sellit" type="b2602c69:ProjectViewProjectNode" />
               <item name="sellit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OwllabApp" type="462c0819:PsiDirectoryNode" />
-              <item name="EventSubscriber" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="email" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/OwllabApp/Serializer" />
-      <recent name="$PROJECT_DIR$/src/OwllabApp/Exception" />
-      <recent name="$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces" />
-      <recent name="$PROJECT_DIR$/src/OwllabApp/EventListener" />
+      <recent name="$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces" />
+      <recent name="$PROJECT_DIR$/src/OwllabApp/Controller" />
+      <recent name="$PROJECT_DIR$/src/OwllabApp/Form" />
+      <recent name="$PROJECT_DIR$/public/images/avatar" />
+      <recent name="$PROJECT_DIR$/src/OwllabApp/Repository" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/images/avatar" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/OwllabApp/Security" />
       <recent name="$PROJECT_DIR$/src/OwllabApp/EventListener" />
-      <recent name="$PROJECT_DIR$/src/OwllabApp" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/Owllabgroup" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,6 +533,17 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Interfaces" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.Interfaces" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -323,41 +554,333 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559570156304</updated>
-      <workItem from="1559570157521" duration="10016000" />
+      <workItem from="1559570157521" duration="27557000" />
+      <workItem from="1559919876573" duration="918000" />
+      <workItem from="1559988079389" duration="596000" />
+      <workItem from="1560014399019" duration="12027000" />
+      <workItem from="1560067557693" duration="21223000" />
+      <workItem from="1560148710545" duration="6863000" />
+      <workItem from="1560173252783" duration="5320000" />
+      <workItem from="1560190351708" duration="6186000" />
+      <workItem from="1560242328373" duration="6216000" />
+      <workItem from="1560331064649" duration="27132000" />
+      <workItem from="1560421374553" duration="10035000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Interfaces - 2019.06.10 at 23h 58m 12s.xml">
+      <configuration name="Interfaces" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Interfaces - 2019.06.12 at 17h 55m 02s.xml">
+      <configuration name="Interfaces" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Interfaces - 2019.06.12 at 17h 55m 09s.xml">
+      <configuration name="Interfaces" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Interfaces - 2019.06.12 at 18h 18m 20s.xml">
+      <configuration name="Interfaces" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Interfaces - 2019.06.12 at 18h 24m 17s.xml">
+      <configuration name="Interfaces" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Interfaces - 2019.06.12 at 18h 52m 09s.xml">
+      <configuration name="Interfaces" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Interfaces - 2019.06.12 at 21h 54m 07s.xml">
+      <configuration name="Interfaces" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10016000" />
+    <option name="totallyTimeSpent" value="124073000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21306032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.5169029" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3293348" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4997233" visible="true" weight="0.28462377" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002767" side_tool="true" weight="0.3991276" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32982844" />
+      <window_info anchor="right" id="Debug" order="5" sideWeight="0.4997233" weight="0.39900386" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/Security/UserEnabledChecker.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/Security/UserEnabledChecker.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/Security/UserEnabledChecker.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/Security/UserEnabledChecker.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/Security/TokenAuthenticator.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/Security/TokenAuthenticator.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/EventListener/AuthenticationSuccessListener.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/EventListener/AuthenticationSuccessListener.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/EventListener/AuthenticationSuccessListener.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/OwllabApp/EventListener/AuthenticationSuccessListener.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/packages/monolog.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/translation.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Traits/TitleTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Controller/AdminSecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#123#192#0#PHP" expanded="true" />
+            <element signature="e#537#563#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#123#186#0#PHP" expanded="true" />
+            <element signature="e#643#659#1#PHP" expanded="true" />
+            <element signature="e#1193#1208#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes/easy_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes/annotations.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/CategoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes/dev/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes/api_platform.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/cache.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/validator.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/twig_extensions.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/nelmio_cors.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine_migrations.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/ImageInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/avatar/5d011c7fdf20f020767517.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Tag.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Interfaces/AvatarInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Form/PostImageType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="e#117#148#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Controller/UserAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Form/ImageType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#117#173#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/vich_uploader.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -365,309 +888,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Traits/UrlTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/fos.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="442" column="17" selection-start-line="442" selection-start-column="17" selection-end-line="442" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/flex/tests/Fixtures/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="1337" column="21" selection-start-line="1337" selection-start-column="18" selection-end-line="1337" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symfony.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bundles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/console">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="385" column="20" selection-start-line="385" selection-start-column="20" selection-end-line="385" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="239" column="9" selection-start-line="239" selection-start-column="9" selection-end-line="239" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="270">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
-            <element signature="e#23#82#0#PHP" expanded="true" />
+            <element signature="e#126#171#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Controller/UploadImageAction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="604">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+          <folding>
+            <element signature="e#122#183#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Image.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="574">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="e#119#151#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/swiftmailer.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="e#119#163#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes/jwt.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/api_platform.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes/annotations.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes/api_platform.yaml">
+    <entry file="file://$PROJECT_DIR$/config/packages/lexik_jwt_authentication.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes/easy_admin.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Email/Interfaces/MailerInterface.php">
+    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="424">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php">
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserManagerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/DataFixtures/OwllabAppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="464">
+          <caret line="287" column="35" selection-start-line="287" selection-start-column="35" selection-end-line="287" selection-end-column="35" />
           <folding>
-            <element signature="e#42#85#0#PHP" expanded="true" />
+            <element signature="e#119#161#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Email/Mailer.php">
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/Avatar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="74" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="74" />
+          <folding>
+            <element signature="e#119#163#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/PostImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+          <folding>
+            <element signature="e#119#163#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/UserConfirmation.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Controller/Interfaces/ResetPasswordActionInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="e#133#183#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Controller/ResetPasswordAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#122#172#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/email/confirmation.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-            <element signature="e#117#164#0#PHP" expanded="true" />
-          </folding>
+          <caret line="8" column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Serializer/UserContextBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Serializer/UserAttributeNormalizer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="e#124#193#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/PublishedDateEntitySubscriberInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventListener/ExceptionListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#125#181#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/EmptyBodySubscriberInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#139#202#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventListener/Interfaces/ExceptionListenerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Serializer/Interfaces/UserAttributeNormalizerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
-          <folding>
-            <element signature="e#133#220#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Serializer/Interfaces/UserContextBuilderInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
-          <folding>
-            <element signature="e#133#199#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Exception/Interfaces/EmptyBodyExceptionInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Exception/EmptyBodyException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#122#185#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventSubscriber/EmptyBodySubscriber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#128#179#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventSubscriber/PublishedDateEntitySubscriber.php">
+    <entry file="file://$PROJECT_DIR$/templates/email/reset_password.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OwllabApp/EventSubscriber/Interfaces/SubscriberInterface.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/OwllabApp/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

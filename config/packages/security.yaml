@@ -1,44 +1,46 @@
 security:
-    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
-    access_decision_manager:
-        strategy: affirmative
 
     encoders:
-        FOS\UserBundle\Model\UserInterface: bcrypt
-        Symfony\Component\Security\Core\User\User: plaintext
-
-    role_hierarchy:
-        ROLE_ADMIN:       ROLE_USER
-        ROLE_SUPER_ADMIN: ROLE_ADMIN
+        OwllabApp\Entity\User: bcrypt
 
     providers:
-        chain_provider:
-            chain:
-                providers: [in_memory, fos_userbundle]
+        database:
+            entity:
+                class: OwllabApp\Entity\User
+                property: username
 
-        in_memory:
-            memory:
-                users:
-                    user:  { name: user, password: user, roles: [ 'ROLE_USER' ] }
-                    admin: { name: admin, password: mp4#@#pass, roles: [ 'ROLE_SUPER_ADMIN' ] }
-
-        fos_userbundle:
-            id: fos_user.user_provider.username_email
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
-        main:
+        api:
+            pattern: ^/api
+            stateless: true
             anonymous: true
+            json_login:
+                check_path: /api/login_check
+                success_handler: lexik_jwt_authentication.handler.authentication_success
+                failure_handler: lexik_jwt_authentication.handler.authentication_failure
+            guard:
+                authenticators:
+                    - OwllabApp\Security\TokenAuthenticator
+            user_checker: OwllabApp\Security\UserEnabledChecker
+        admin:
+            pattern: ^/
+            anonymous: true
+            form_login:
+                check_path: security_login
+                login_path: security_login
+                default_target_path: admin
+                use_referer: true
+            logout:
+                path: security_logout
 
-            # activate different ways to authenticate
-            # https://symfony.com/doc/current/security.html#firewalls-authentication
-
-            # https://symfony.com/doc/current/security/impersonating_user.html
-            # switch_user: true
-
-    # Easy way to control access for large sections of your site
-    # Note: Only the *first* access control that matches will be used
     access_control:
-        # - { path: ^/admin, roles: ROLE_ADMIN }
-        # - { path: ^/profile, roles: ROLE_USER }
+        - { path: ^/api, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin, roles: ROLE_SUPER_ADMIN }
+        - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+
+    role_hierarchy:
+        ROLE_ADMIN: ROLE_USER
+        ROLE_SUPER_ADMIN: ROLE_ADMIN

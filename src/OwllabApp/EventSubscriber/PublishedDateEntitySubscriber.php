@@ -9,11 +9,16 @@
 namespace OwllabApp\EventSubscriber;
 
 use ApiPlatform\Core\EventListener\EventPriorities;
+use OwllabApp\Entity\Interfaces\PublishDateInterface;
 use OwllabApp\EventSubscriber\Interfaces\PublishedDateEntitySubscriberInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 
+/**
+ * Class PublishedDateEntitySubscriber
+ * @package OwllabApp\EventSubscriber
+ */
 class PublishedDateEntitySubscriber implements PublishedDateEntitySubscriberInterface
 {
     public static function getSubscribedEvents()
@@ -28,7 +33,7 @@ class PublishedDateEntitySubscriber implements PublishedDateEntitySubscriberInte
     {
         $entity = $event->getControllerResult();
         $method = $event->getRequest()->getMethod();
-        if (!$entity instanceof PublishedDateEntityInterface || Request::METHOD_POST !== $method) {
+        if (!$entity instanceof PublishDateInterface || Request::METHOD_POST !== $method) {
             return;
         }
         $entity->setPublished(new \DateTime());

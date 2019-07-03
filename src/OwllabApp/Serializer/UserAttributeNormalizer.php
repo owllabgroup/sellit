@@ -56,7 +56,9 @@ class UserAttributeNormalizer implements UserAttributeNormalizerInterface {
      * @param mixed $object
      * @param null $format
      * @param array $context
-     * @return array|bool|float|int|string
+     * @return array|bool|float|int|mixed|string
+     *
+     * @throws \Symfony\Component\Serializer\Exception\ExceptionInterface
      */
     public function normalize($object, $format = null, array $context = [])
     {

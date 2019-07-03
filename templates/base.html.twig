@@ -6,6 +6,7 @@
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+    <a href="{{ url('default_confirmation_token', {token: 'ssss'}) }}">confirm</a>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
